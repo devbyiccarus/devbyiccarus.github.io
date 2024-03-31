@@ -1,0 +1,99 @@
+/* IMPORTING THE ABLETON SANS FONT */
+/* Regular */
+@font-face {
+    font-family: 'Ableton Sans';
+    src: url('assets/fonts/AbletonSansSmall-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Ableton Sans';
+    src: url('assets/fonts/AbletonSansSmall-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+/* Italic */
+@font-face {
+    font-family: 'Ableton Sans';
+    src: url('assets/fonts/AbletonSansSmall-RegularItalic.ttf') format('truetype');
+    font-style: italic;
+}
+
+/* BASE STYLING */
+* {
+    background-color: #333540;
+    color: #b3b4bd;
+    font-family: 'Ableton Sans';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 24px;
+    color: #637e86;
+    background-color: #272a33;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: #272a33;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    margin: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#description {
+    box-sizing: border-box;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.social-icon {
+    margin: 8px;
+    transition: transform 0.25s;
+}
+
+.social-icon:hover,
+.social-icon:active {
+    transform: scale(1.2);
+}
