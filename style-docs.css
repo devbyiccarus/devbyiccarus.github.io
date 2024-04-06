@@ -462,7 +462,7 @@ img {
     border-radius: 2.5px;
 }
 
-.stackedit__left {
+.content_left {
     position: fixed;
     display: none;
     width: 250px;
@@ -476,7 +476,7 @@ img {
 }
 
 @media (min-width:1060px) {
-    .stackedit__left {
+    .content_left {
         display: block
     }
 }
