@@ -2,21 +2,21 @@
 /* Regular */
 @font-face {
     font-family: 'Ableton Sans';
-    src: url('/devbyiccarus.github.io/assets/fonts/AbletonSansSmall-Regular.ttf') format('truetype');
+    src: url('/assets/fonts/AbletonSansSmall-Regular.ttf') format('truetype');
     font-style: normal;
 }
 
 /* Bold */
 @font-face {
     font-family: 'Ableton Sans';
-    src: url('/devbyiccarus.github.io/assets/fonts/AbletonSansSmall-Bold.ttf') format('truetype');
+    src: url('/assets/fonts/AbletonSansSmall-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
 /* Italic */
 @font-face {
     font-family: 'Ableton Sans';
-    src: url('/devbyiccarus.github.io/assets/fonts/AbletonSansSmall-RegularItalic.ttf') format('truetype');
+    src: url('/assets/fonts/AbletonSansSmall-RegularItalic.ttf') format('truetype');
     font-style: italic;
 }
 
